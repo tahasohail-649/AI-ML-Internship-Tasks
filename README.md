@@ -136,3 +136,11 @@ Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Google Colab
 1. Clone this repository:
 ```bash
 git clone https://github.com/your-username/AI-ML-Internship-Tasks.git
+
+---
+## | Field | Value |
+|-------|-------|
+| **Name** | Taha Sohail |
+| **Submission Date** | 26th June, 2026 |
+| **GitHub Link** | `https://github.com/taha-sohail/AI-ML-Internship-Tasks` |
+---
