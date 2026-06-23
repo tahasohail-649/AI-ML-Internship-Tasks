@@ -11,6 +11,7 @@ Welcome to my AI/ML Engineering Internship repository. This repository contains 
 |------|-------|--------|
 | Task 1 | Iris Dataset Exploration | ✅ Complete |
 | Task 2 | Stock Price Prediction | ✅ Complete |
+| Task 3 | Heart Disease Prediction | ✅ Complete |
 | Task 6 | House Price Prediction | ✅ Complete |
 
 ---
@@ -91,6 +92,46 @@ Python | yfinance | Pandas | Scikit-learn | Matplotlib | Seaborn
 
 ---
 
+# Task 3: Heart Disease Prediction ✅
+
+## Objective
+Build a model to predict whether a person is at risk of heart disease based on their health data.
+
+## Dataset Used
+- **Dataset:** Heart Disease UCI Dataset
+- **Samples:** 303
+- **Features:** 13 (age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal)
+- **Target:** 0 = No Disease, 1 = Disease
+
+## Steps Performed
+1. Loaded Heart Disease dataset
+2. Performed Exploratory Data Analysis (EDA)
+3. Converted target to binary classification
+4. Trained Logistic Regression and Decision Tree models
+5. Evaluated using Accuracy, ROC-AUC, and Confusion Matrix
+
+## Model Performance
+
+| Model | Accuracy | ROC-AUC |
+|-------|----------|---------|
+| Logistic Regression | 0.8525 | 0.9123 |
+| Decision Tree | 0.8197 | 0.8456 |
+
+## Key Findings
+- Logistic Regression performed better than Decision Tree
+- Most important features: ca, cp, oldpeak, thal, age
+- ca (number of major vessels) is the strongest predictor
+
+## Visualizations
+- Confusion Matrix
+- ROC Curve
+- Feature Importance Plot
+
+## Tech Stack
+Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Google Colab
+
+---
+
 # Task 6: House Price Prediction ✅
 
 ## Objective
@@ -135,14 +176,13 @@ Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Google Colab
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/AI-ML-Internship-Tasks.git
-
+git clone https://github.com/taha-sohail/AI-ML-Internship-Tasks.git
 ---
-## ✅ Done!
+## Team
 
-Your README.md is now **complete and final** with:
-- ✅ Your name: **Taha Sohail**
-- ✅ Submission date: **26th June, 2026**
-- ✅ All 3 tasks described
-- ✅ GitHub link included
----
+| Name | 
+|------|
+| Taha Sohail | 
+
+
+**DateOfSubmission:** 26-July-2026  
