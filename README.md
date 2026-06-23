@@ -178,8 +178,7 @@ Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Google Colab
 ```bash
 git clone https://github.com/taha-sohail/AI-ML-Internship-Tasks.git
 ---
-## Team
-
+**## Team**
 | Name | 
 |------|
 | Taha Sohail | 
